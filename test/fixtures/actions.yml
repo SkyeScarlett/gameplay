@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  scene_id: 1
+  description: MyString
+  required_stats: 
+  gained_stats: 
+  target_scene_id: 1
+
+two:
+  scene_id: 1
+  description: MyString
+  required_stats: 
+  gained_stats: 
+  target_scene_id: 1

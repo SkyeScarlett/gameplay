@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.flashMessage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.flashMessage.notice {
+    background: #abeaaf;
+    color: #2E2F30;
+}
+
+.flashMessage.alert {
+    background: #ff6754;
+    color: white;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gameWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.gameAction a {
+    display: block;
+    margin: 10px; padding: 20px;
+    width: 200px;
+    text-align: center;
+    border: 3px solid #999999;
+}
+
+.sceneDescription {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.sceneActions {
+    display: flex;
+    justify-content: center;
+}
+
+.oneAction {
+    margin: 10px;
+    padding: 5px;
+    border: 1px dashed #2E2F30;
+}
+
+.oneAction span {
+    color: #666666;
+}

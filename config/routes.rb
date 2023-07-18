@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  resources :scenes, only: [:index, :show]
+  get "actions/:id", to: "actions#move", as: :action
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  root "scenes#index"
 end

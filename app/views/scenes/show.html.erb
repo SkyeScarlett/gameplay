@@ -1,0 +1,17 @@
+<h1>Сцена <%= @scene.id %></h1>
+
+<div class="sceneDescription">
+  <%= @scene.description %>
+</div>
+
+<div class="sceneActions">
+  <% @scene.actions.each do |action| %>
+    <div class="oneAction">
+      <% if action.permitted?(character_stats) %>
+        <%= link_to action.description, action_path(action) %>
+      <% else %>
+        <span><%= action.description %></span>
+      <% end %>
+    </div>
+  <% end %>
+</div>

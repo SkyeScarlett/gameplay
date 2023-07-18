@@ -1,0 +1,12 @@
+<h1> Добро пожаловать в игру</h1>
+<div class="gameWrapper">
+  <% if session[:scene_id] %>
+  <div class="gameAction">
+    <%= link_to "Продолжить игру", scene_path(session[:scene_id]) %>
+  </div>
+
+  <% end %>
+  <div class="gameAction">
+    <%= link_to "Начать новую игру", scene_path(Scene.first)+"?force=true" %>
+  </div>
+</div>
