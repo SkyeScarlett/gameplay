@@ -1,24 +1,18 @@
-# README
+Добрый день!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Перед вами - пример кода, который позволяет накапливать статы, а потом за них сделать выбор.
 
-Things you may want to cover:
+Чтобы использовать код, вам нужно:
+- установить ruby, sqlite
+- скачать код из репозитория
 
-* Ruby version
+В консоли поочередно запустить следующие команды:
+- bundle install
+- rails db:create
+- rails db:migrate
+- rails db:seed
 
-* System dependencies
+Запустить команду rails server
+Затем открыть в браузере http://0.0.0.0:3000
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Спасибо!
